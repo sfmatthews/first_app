@@ -1,0 +1,10 @@
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at 2011-02-05 14:38:14 -0500
+  Processing by Rails::InfoController#properties as HTML
+  [1m[36mSQL (15.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Rendered inline template (0.6ms)
+Completed 200 OK in 39ms (Views: 1.6ms | ActiveRecord: 15.4ms)
